@@ -4,7 +4,6 @@ var InMemoryDataService = (function () {
     }
     InMemoryDataService.prototype.createDb = function () {
         var heroes = [
-            { id: 0, name: 'Zero' },
             { id: 11, name: '影流之镰 凯隐' },
             { id: 12, name: '逆羽 霞' },
             { id: 13, name: '幻翎 洛' },
